@@ -5,7 +5,8 @@ async function start() {
   // Load the TFLite model.
   const model = await tfTask.NLClassification.CustomModel.TFLite.load({
     model:
-    "https://storage.googleapis.com/tfweb/models/movie_review_sentiment_classification.tflite"
+    //"https://storage.googleapis.com/tfweb/models/movie_review_sentiment_classification.tflite"
+    "./movie_review_sentiment_classification.tflite"
     //"./mymodelLSTM.tflite"
   });
 
