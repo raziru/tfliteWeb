@@ -10,7 +10,8 @@ async function start() {
 
   document.querySelector(".btn").addEventListener("click", async () => {
     // Get the classification result for the entered text
-    const result = await model.predict(textarea.value);
+    var temp=textarea.value;
+    const result = await model.predict(temp);
 
     // Show the results.
     resultDiv.textContent = result.classes
