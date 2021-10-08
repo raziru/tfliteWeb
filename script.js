@@ -1,5 +1,3 @@
-import * as tf from "@tensorflow/tfjs"
-
 async function start() {
   const textarea = document.querySelector("textarea");
   const resultDiv = document.querySelector(".result");
