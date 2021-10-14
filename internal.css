@@ -1,5 +1,4 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
   padding: 20px;
 }
 
@@ -10,7 +9,6 @@ body {
 textarea {
   border: 1px solid #999;
   border-radius: 4px;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   height: 60px;
   padding: 8px;
@@ -19,7 +17,7 @@ textarea {
 
 .btn {
   align-items: center;
-  background: linear-gradient(90deg, #ff6f00, #ff9100);
+  background: #FFC0CB;
   border: 1px solid #ccc;
   border-radius: 6px;
   color: white;
